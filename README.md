@@ -37,7 +37,7 @@ It creates reasonable thresholds and outputs
 **anomalies** (data outside the expected threshold).
 
 You'll copy the Python file and make it your own (see docs/your-files.md),
-and perform a similar analysis on `data/clinic_data_yourname.csv`
+and perform a similar analysis on `data/clinic_data_hennelly.csv`
 given **adult clinic** age and height data.
 
 ## Working Files
@@ -96,8 +96,7 @@ After you get a copy of this repo in your own GitHub account,
 open a machine terminal in your `Repos` folder:
 
 ```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/cintel-02-static-anomalies
+git clone https://github.com/KHenn22/cintel-02-static-anomalies
 
 cd cintel-02-static-anomalies
 code .
