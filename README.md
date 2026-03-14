@@ -126,6 +126,14 @@ git push -u origin main
 
 </details>
 
+## Phase 4 Modify
+
+- I added a script to classify the anomalies as follows:
+  - Age: 17-18 as mild; 19-21 as moderate; 22 and older severe.
+  - Height: 73-75 as mild; 76-80 moderate; 81 or taller as severe.
+- The practical purpose is that this may help to reverify input in case there   was anything added incorrectly.  For example, it's possible that data of someone 22 and older with a very short height could require a second look at the inputed data.  Height still might be correct though.
+- Columns are highest severity overall, and then severity by age and height
+
 ## Notes
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
